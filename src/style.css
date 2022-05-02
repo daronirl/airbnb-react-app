@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    height: 70px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
+    padding: 20px;
+}
+
+.nav--logo {
+    max-width: 100px;
+}
+
+
+
+/* .hero--content {
+    padding: 20px;
+    line-height: 1.5rem;
+}
+
+.hero--h1 {
+    font-size: 3rem;
+}
+
+.hero--p {
+    font-size: 1.5rem;
+  
+} */
