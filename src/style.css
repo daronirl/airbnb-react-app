@@ -6,6 +6,11 @@ body {
     margin: 0;
 }
 
+.gray {
+    color: #918E9B;
+}
+
+/* NAVBAR CSS */
 nav {
     display: flex;
     height: 70px;
@@ -17,6 +22,9 @@ nav {
     max-width: 100px;
 }
 
+/* END NAVBAR CSS */
+
+/* HEADER CSS */
 
 header {
     display: flex;
@@ -29,7 +37,7 @@ header {
 .hero--h1 {
     font-size: 2.1rem;
     padding-top: 10px;
-    margin-bottom: 9px;
+    margin-bottom: 5px;
 }
 
 .hero--p {
@@ -38,3 +46,31 @@ header {
     padding: 5px;
   
 } 
+
+/* END HEADER CSS */
+
+/* CARD CSS */
+
+.card--one {
+    width:175px;
+    font-size: 14px;
+}
+
+.card--info {
+    display: flex;
+    align-items: center;
+}
+
+.img--katie {
+    width: 100%;
+    border-radius: 9px;
+}
+
+.img--star {
+    width: 20px;
+    height: 14px;
+}
+
+.span--p {
+    font-weight: bold;
+}
