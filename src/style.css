@@ -71,6 +71,12 @@ header {
     height: 14px;
 }
 
+.title {
+    display:flex;
+
+    
+}
+
 .span--p {
     font-weight: bold;
 }
