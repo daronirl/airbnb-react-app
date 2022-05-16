@@ -1,22 +1,28 @@
 import Navbar from "./components/Navbar"
 import Header from "./components/Header"
 import Card from "./components/Card"
-
-
+import data from "./data"
 
 function App() {
+  
+  const cards = data.map((item) => {
+    return (
+      <Card 
+      img={item.coverImg}
+      rating={item.stats.rating}
+      reviewCount={item.stats.reviewCount} 
+      location={item.location}
+      title={item.title}
+      price={item.price}
+ />
+    )
+  })
+
   return (
     <>
       <Navbar />
       <Header />
-      <Card imgSource={require("./images/katie-zaferes.png")} 
-            imgSourceTwo={require("./images/star.png")}
-            rating="5.0"
-            reviewCount="6" 
-            country="USA"
-            title="Life Lessons with Katie Zaferes"
-            price="136"
-       />
+      {cards}
     </>
   )
 }
