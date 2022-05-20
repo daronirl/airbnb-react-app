@@ -122,7 +122,40 @@ header {
     }
   }
 
-  @media screen and (min-width: 1400px) {
+
+
+  @media screen and (min-width: 900px) {
+    .card--list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 70px;
+    }
+  }
+
+
+
+  @media screen and (min-width: 1920px) {
+    .card--list {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        margin: 0 auto;
+        
+    }
+
+    .card--one {
+       
+        width: 250px;
+      
+    }
+    
+  }
+
+
+
+
+  @media screen and (min-width: 2500px) {
     .card--list {
         display: flex;
         flex-direction: row;
