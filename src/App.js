@@ -19,7 +19,7 @@ function App() {
       <Navbar />
       <Header />
       <section className="card--list">
-      {cards}
+          {cards}
       </section>
     </>
   )

@@ -54,9 +54,9 @@ header {
 .card--one {
     width:195px;
     font-size: 14px;
-    flex: 0 0 auto;         /* ADD */
-    display: flex;          /* ADD */
-    flex-direction: column; /* ADD */
+    flex: 0 0 auto;         
+    display: flex;          
+    flex-direction: column; 
     position: relative;
 
    
